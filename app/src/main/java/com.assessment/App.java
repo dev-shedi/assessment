@@ -17,7 +17,8 @@ public class App {
         events.add(new App.GrantProcessor.GrantEvent("E6", "G1", 1, "APPLIED"));
         events.add(new App.GrantProcessor.GrantEvent("E7", "G2", 2, "APPROVED"));
 
-        System.out.println(latestStatus(events));
+        System.out.println(GrantProcessor.latestStatus(events));
+        
 
     }
 
